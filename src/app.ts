@@ -1,14 +1,11 @@
 'use strict';
+
 /**
  * TypeScript
  */
-let lastNight: string = '🍺 🍷 🥃 🍸 🍹 🤮 😴 🤮 😴';
-lastNight = '👿 👹 👺 💀 👻 👽 😱';
 
-let isDone: boolean = true;
+function greet(user: string): string {
+  return `hello ~ ${ user }`;
+}
 
-let age: number = 3;
-
-let fruits: string[] = ['apple', 'orange'];
-
-let ghost: any = '👻';
+greet('ninghao');
