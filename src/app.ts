@@ -4,8 +4,12 @@
  * TypeScript
  */
 
-function greet(user: string): string {
-  return `hello ~ ${ user }`;
+interface Post {
+  title: string;
+  content?: string;
 }
 
-greet('ninghao');
+let post: Post = {
+  title: 'One Day',
+  // content: '🛵 🌅 🏖 🍹 ⛰ 🌄',
+}
